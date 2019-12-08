@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "curly": [2, "all"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "never"]
+  },
+  "extends": ["plugin:@stencil/recommended"]
+}
